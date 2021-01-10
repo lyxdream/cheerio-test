@@ -12,10 +12,8 @@ let fileName = path.resolve(__dirname, config.saveFileName);
 @Injectable()
 export class ProductService {
     private readonly logger = new Logger(ProductService.name);
-   
     /**
      *
-     * 访问商品获取名称拿cookie
      * @returns
      * @memberof ProductService
      */
